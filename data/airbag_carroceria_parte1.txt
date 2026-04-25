@@ -1,0 +1,136 @@
+SISTEMA: Airbag / Carrocería
+DOCUMENTO: airbag_carroceria_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Airbag y Seguridad Pasiva (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+ADVERTENCIA: Los trabajos en el sistema de airbag deben ser realizados por técnicos certificados. Una intervención incorrecta puede causar despliegue accidental o dejar el sistema inoperable.
+
+================================================================================
+
+CÓDIGO: B0001
+SIGNIFICADO: Fallo eléctrico en el circuito de la etapa 1 del airbag frontal del conductor
+CAUSA PROBABLE:
+- Circuito del airbag del conductor con cortocircuito o circuito abierto
+- Conector del airbag del conductor con daños o corrosión
+- Cable en espiral (reloj de contacto/spiral cable) defectuoso
+- Módulo del airbag (ACM/SDM) defectuoso
+- Resistencia fuera de rango en el inflador del airbag
+SÍNTOMAS:
+- Luz de airbag (SRS) encendida en el tablero
+- Sistema de airbag completamente inactivo o parcialmente inactivo
+- Posible error adicional en el escáner BMW
+- No hay síntomas físicos visibles en conducción normal
+SOLUCIÓN:
+- NO intentar reparar sin equipo especializado
+- Usar escáner BMW para leer códigos específicos del airbag
+- Inspeccionar el cable en espiral (reloj de contacto) del volante
+- Verificar el conector del airbag bajo el volante
+- Llevar a técnico certificado en sistemas de seguridad BMW
+
+================================================================================
+
+CÓDIGO: B0004
+SIGNIFICADO: Fallo eléctrico en el circuito de la etapa 2 del airbag frontal del conductor
+CAUSA PROBABLE:
+- Circuito de la segunda etapa del airbag del conductor dañado
+- Conector de segunda etapa con corrosión o circuito abierto
+- Módulo ACM con fallo interno
+- Inflador de doble etapa con resistencia incorrecta
+- Cableado del airbag del conductor con daños físicos
+SÍNTOMAS:
+- Luz SRS encendida en el tablero
+- Sistema de airbag inoperable o en modo degradado
+- Solo la primera etapa del airbag disponible (despliegue reducido)
+- Sin síntomas físicos durante la conducción normal
+SOLUCIÓN:
+- Diagnóstico obligatorio con escáner especializado BMW
+- Verificar resistencia del inflador de segunda etapa
+- Inspeccionar cableado desde el módulo al volante
+- No manipular el sistema sin herramientas y conocimiento adecuados
+- Llevar a técnico certificado
+
+================================================================================
+
+CÓDIGO: B0010
+SIGNIFICADO: Fallo en el circuito del airbag frontal del pasajero
+CAUSA PROBABLE:
+- Circuito del airbag del pasajero con cortocircuito o circuito abierto
+- Conector del airbag del panel de instrumentos dañado
+- Módulo ACM con error de comunicación
+- Airbag del pasajero desactivado manualmente y no registrado
+- Resistencia del inflador fuera del rango aceptable
+SÍNTOMAS:
+- Luz SRS encendida en el tablero
+- Sistema de airbag del pasajero inoperativo
+- Posible indicador de "airbag off" en el tablero (si aplica)
+- Sin síntomas durante la conducción normal
+SOLUCIÓN:
+- Diagnóstico con escáner BMW para identificar el fallo específico
+- Verificar el estado del interruptor de desactivación del airbag (si aplica)
+- Inspeccionar el conector del airbag del pasajero bajo el panel
+- Verificar resistencia del inflador
+- Llevar a técnico certificado para reparación
+
+================================================================================
+
+CÓDIGO: B0020
+SIGNIFICADO: Fallo en el circuito del airbag lateral izquierdo (conductor)
+CAUSA PROBABLE:
+- Circuito del airbag lateral del asiento del conductor dañado
+- Conector del airbag lateral con corrosión o daño físico
+- Airbag lateral del asiento dañado por objetos extraños
+- Módulo ACM con fallo en el canal lateral izquierdo
+- Sensor de impacto lateral izquierdo defectuoso
+SÍNTOMAS:
+- Luz SRS encendida en el tablero
+- Airbag lateral del conductor inoperativo
+- Sin síntomas visibles durante la conducción
+SOLUCIÓN:
+- Diagnóstico con escáner BMW especializado
+- Verificar sensor de impacto lateral izquierdo
+- Inspeccionar el conector del airbag lateral del asiento
+- Verificar que el asiento no haya sido modificado o reparado incorrectamente
+- Técnico certificado para cualquier intervención
+
+================================================================================
+
+CÓDIGO: B0051
+SIGNIFICADO: Fallo en el sensor de impacto frontal - acelerómetro central
+CAUSA PROBABLE:
+- Sensor de impacto frontal (acelerómetro) defectuoso
+- Cableado del sensor con daños o corrosión
+- Módulo ACM con problema en la lectura del sensor
+- Sensor desalineado o físicamente dañado
+- Conector del sensor con mal contacto
+SÍNTOMAS:
+- Luz SRS encendida en el tablero
+- Sistema de airbag en modo degradado o inoperativo
+- Posible desactivación del pretensor del cinturón de seguridad
+- Sin síntomas durante la conducción normal
+SOLUCIÓN:
+- Diagnóstico con escáner especializado
+- Verificar el sensor de impacto frontal y sus conexiones
+- Inspeccionar físicamente el sensor por daños
+- Verificar el cableado desde el sensor al módulo ACM
+- Llevar a técnico certificado para reparación
+
+================================================================================
+
+CÓDIGO: B0057
+SIGNIFICADO: Fallo en el pretensor del cinturón de seguridad del conductor
+CAUSA PROBABLE:
+- Pretensor del cinturón del conductor con circuito abierto o cortocircuito
+- Conector del pretensor con daños o corrosión
+- Pretensor ya activado en un accidente previo (necesita reemplazo)
+- Módulo ACM con fallo en el canal del pretensor
+- Resistencia del pretensor fuera de especificación
+SÍNTOMAS:
+- Luz SRS encendida en el tablero
+- Pretensor del cinturón del conductor inoperativo
+- Sin síntomas físicos durante la conducción
+- Sistema de retención pasiva degradado
+SOLUCIÓN:
+- Verificar si el pretensor fue activado en un accidente previo
+- Diagnóstico con escáner especializado BMW
+- Inspeccionar el conector del pretensor bajo el asiento
+- Reemplazar el pretensor si fue activado o está dañado
+- Solo técnico certificado debe intervenir

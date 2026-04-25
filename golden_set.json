@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué significa el código P0171 en un BMW?",
+    "expected_answer": "Mezcla de combustible demasiado pobre en el banco 1, exceso de aire en la mezcla.",
+    "expected_source": "motor_parte1.txt"
+  },
+  {
+    "id": 2,
+    "question": "¿Cuáles son las causas del código P0300?",
+    "expected_answer": "Bujías desgastadas, bobinas de encendido dañadas, inyectores obstruidos o compresión baja.",
+    "expected_source": "motor_parte2.txt"
+  },
+  {
+    "id": 3,
+    "question": "¿Qué síntomas produce el código P0700 en la transmisión?",
+    "expected_answer": "Cambios de marcha bruscos, transmisión fija en una marcha, luz de Check Engine encendida.",
+    "expected_source": "transmision_parte1.txt"
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo solucionar el código C0031 del sensor de velocidad de rueda?",
+    "expected_answer": "Inspeccionar el sensor y cableado, limpiar el anillo reluctor, verificar continuidad y reemplazar el sensor si es necesario.",
+    "expected_source": "frenos_abs_parte1.txt"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué indica el código P0562 relacionado con la batería?",
+    "expected_answer": "Voltaje del sistema demasiado bajo, puede ser por batería débil o alternador defectuoso.",
+    "expected_source": "electrico_bateria_parte1.txt"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué significa el código B0001 del airbag en BMW?",
+    "expected_answer": "Fallo eléctrico en el circuito de la etapa 1 del airbag frontal del conductor.",
+    "expected_source": "airbag_carroceria_parte1.txt"
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la causa más común del código P0401 del sistema EGR en BMW?",
+    "expected_answer": "Válvula EGR obstruida con depósitos de carbón.",
+    "expected_source": "emisiones_parte1.txt"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué produce el código C0460 en el sistema de dirección?",
+    "expected_answer": "Datos no válidos del sensor de ángulo de dirección, puede causar dificultad para girar el volante y desactivación del DSC.",
+    "expected_source": "direccion_parte1.txt"
+  },
+  {
+    "id": 9,
+    "question": "¿Qué síntomas tiene un BMW con el código P0128?",
+    "expected_answer": "El motor tarda mucho en alcanzar temperatura normal, calefacción ineficiente, mayor consumo de combustible.",
+    "expected_source": "motor_parte1.txt"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué es el código P0420 y cómo se soluciona?",
+    "expected_answer": "Eficiencia del catalizador banco 1 por debajo del umbral. Se soluciona verificando el sensor O2 trasero y reemplazando el catalizador si está dañado.",
+    "expected_source": "motor_parte3.txt"
+  },
+  {
+    "id": 11,
+    "question": "¿Qué indica el código P0087 en BMW?",
+    "expected_answer": "Presión del riel de combustible demasiado baja, puede ser por bomba de combustible débil o filtro obstruido.",
+    "expected_source": "motor_parte2.txt"
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo afecta el código P0442 al vehículo?",
+    "expected_answer": "Indica una fuga pequeña en el sistema EVAP, generalmente la tapa del depósito de combustible dañada. Solo enciende el Check Engine sin síntomas de conducción.",
+    "expected_source": "emisiones_parte2.txt"
+  }
+]

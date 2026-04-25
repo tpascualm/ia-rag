@@ -1,0 +1,145 @@
+SISTEMA: Motor
+DOCUMENTO: motor_parte2.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Motor (Parte 2)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: P0174
+SIGNIFICADO: Regulación de inyección banco 2 - mezcla demasiado pobre (exceso de aire)
+CAUSA PROBABLE:
+- Fugas de aire en el colector de admisión del banco 2
+- Sensor de oxígeno (O2) del banco 2 defectuoso
+- Inyectores del banco 2 obstruidos o con bajo caudal
+- Filtro de combustible sucio o tapado
+- Válvula PCV con fugas
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Pérdida de potencia, especialmente al acelerar
+- Ralentí inestable o vibraciones
+- Mayor consumo de combustible
+- Puede aparecer junto con el código P0171
+SOLUCIÓN:
+- Revisar fugas de vacío en el banco 2
+- Verificar el sensor O2 del banco 2
+- Limpiar o reemplazar inyectores del banco 2
+- Revisar presión del sistema de combustible
+- Inspeccionar válvula PCV y sus mangueras
+
+================================================================================
+
+CÓDIGO: P0087
+SIGNIFICADO: Presión del riel de combustible / sistema de presión demasiado baja
+CAUSA PROBABLE:
+- Bomba de combustible débil o defectuosa
+- Filtro de combustible obstruido
+- Regulador de presión de combustible dañado
+- Inyectores con fugas internas
+- Líneas de combustible con restricciones o dobladas
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor que se cala o tiene dificultad para arrancar
+- Pérdida de potencia bajo carga
+- Tirones o vacilaciones al acelerar
+- Motor que falla a altas revoluciones
+SOLUCIÓN:
+- Medir la presión del combustible con manómetro
+- Reemplazar el filtro de combustible
+- Verificar el funcionamiento de la bomba de combustible
+- Revisar el regulador de presión de combustible
+- Inspeccionar líneas de combustible en busca de obstrucciones
+
+================================================================================
+
+CÓDIGO: P0300
+SIGNIFICADO: Fallo de encendido aleatorio o en múltiples cilindros detectado
+CAUSA PROBABLE:
+- Bujías desgastadas, sucias o defectuosas
+- Bobinas de encendido dañadas
+- Cables de bujías deteriorados
+- Inyectores de combustible obstruidos o dañados
+- Compresión baja en uno o más cilindros
+- Presión de combustible insuficiente
+SÍNTOMAS:
+- Luz de Check Engine encendida (puede parpadear en casos graves)
+- Motor con vibraciones o sacudidas
+- Ralentí irregular
+- Pérdida notable de potencia
+- Mayor consumo de combustible
+- Olor a combustible en el escape
+SOLUCIÓN:
+- Revisar y reemplazar bujías si están desgastadas
+- Probar las bobinas de encendido
+- Verificar la presión de combustible
+- Inspeccionar inyectores
+- Realizar prueba de compresión en todos los cilindros
+- Usar escáner OBD2 para identificar cilindros específicos con fallo
+
+================================================================================
+
+CÓDIGO: P0301
+SIGNIFICADO: Fallo de encendido detectado en el cilindro 1
+CAUSA PROBABLE:
+- Bujía del cilindro 1 desgastada o defectuosa
+- Bobina de encendido del cilindro 1 dañada
+- Inyector del cilindro 1 obstruido o con fuga
+- Compresión baja en el cilindro 1
+- Cable de bujía del cilindro 1 dañado
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Vibración notable del motor, especialmente en ralentí
+- Pérdida de potencia
+- Motor con traqueteo o golpeteo
+- Mayor consumo de combustible
+SOLUCIÓN:
+- Reemplazar la bujía del cilindro 1
+- Probar y reemplazar la bobina de encendido del cilindro 1
+- Revisar el inyector del cilindro 1
+- Realizar prueba de compresión en el cilindro 1
+- Verificar el cableado hacia el cilindro 1
+
+================================================================================
+
+CÓDIGO: P0302
+SIGNIFICADO: Fallo de encendido detectado en el cilindro 2
+CAUSA PROBABLE:
+- Bujía del cilindro 2 defectuosa o con depósitos
+- Bobina de encendido del cilindro 2 fallando
+- Inyector del cilindro 2 obstruido
+- Arnés del inyector o bobina en cortocircuito
+- Baja compresión en el cilindro 2
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Vibración del motor perceptible
+- Reducción de potencia al acelerar
+- Ralentí inestable
+- Posible daño al catalizador si no se atiende
+SOLUCIÓN:
+- Reemplazar la bujía del cilindro 2
+- Verificar la bobina de encendido del cilindro 2
+- Limpiar o reemplazar el inyector del cilindro 2
+- Inspeccionar el arnés eléctrico del cilindro 2
+- Realizar prueba de compresión
+
+================================================================================
+
+CÓDIGO: P0303
+SIGNIFICADO: Fallo de encendido detectado en el cilindro 3
+CAUSA PROBABLE:
+- Bujía del cilindro 3 desgastada o con depósitos excesivos
+- Bobina de encendido del cilindro 3 defectuosa
+- Inyector del cilindro 3 obstruido o fallando
+- Fuga en la junta de la culata del cilindro 3
+- Compresión baja en el cilindro 3
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor con vibración fuerte en ralentí
+- Pérdida de potencia notable
+- Humo gris o negro por el escape
+- Mayor consumo de combustible
+SOLUCIÓN:
+- Reemplazar bujía del cilindro 3
+- Probar y reemplazar bobina de encendido si es necesario
+- Revisar el inyector del cilindro 3
+- Verificar compresión en el cilindro 3
+- Inspeccionar la junta de la culata

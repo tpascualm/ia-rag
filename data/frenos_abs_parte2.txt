@@ -1,0 +1,142 @@
+SISTEMA: Frenos / ABS
+DOCUMENTO: frenos_abs_parte2.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Frenos y ABS (Parte 2)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: C0110
+SIGNIFICADO: Mal funcionamiento en el circuito del motor de la bomba del ABS
+CAUSA PROBABLE:
+- Motor de la bomba del ABS defectuoso o dañado
+- Cableado del motor de la bomba con cortocircuito o circuito abierto
+- Relé de la bomba del ABS dañado
+- Fusible del circuito de la bomba quemado
+- Módulo ABS (EBCM) con fallo interno
+SÍNTOMAS:
+- Luz de advertencia del ABS encendida
+- Luz de Check Engine encendida
+- Sistema ABS completamente desactivado
+- En algunos casos, pedal de freno con comportamiento inusual
+- Reducción en la eficiencia del sistema de frenos
+SOLUCIÓN:
+- Verificar el fusible del circuito de la bomba ABS
+- Revisar el relé de la bomba ABS
+- Probar el motor de la bomba con multímetro
+- Inspeccionar el cableado del motor de la bomba
+- Reemplazar el motor de la bomba o el módulo ABS si es necesario
+
+================================================================================
+
+CÓDIGO: C0121
+SIGNIFICADO: Mal funcionamiento en el circuito de la válvula del ABS
+CAUSA PROBABLE:
+- Válvula solenoide del ABS defectuosa o atascada
+- Cableado de la válvula con daños, cortocircuito o corrosión
+- Módulo hidráulico del ABS con fallo interno
+- Fluido de frenos contaminado que afecta las válvulas
+- EBCM defectuoso
+SÍNTOMAS:
+- Luz de ABS encendida
+- Luz de Check Engine encendida
+- Sistema ABS desactivado
+- Posible comportamiento irregular al frenar fuerte
+- Pedal de freno con respuesta diferente a lo normal
+SOLUCIÓN:
+- Verificar el fluido de frenos (nivel y condición)
+- Inspeccionar las conexiones eléctricas de las válvulas
+- Revisar el cableado con multímetro
+- Inspeccionar el módulo hidráulico del ABS
+- Consultar especialista para diagnóstico del módulo ABS
+
+================================================================================
+
+CÓDIGO: C0161
+SIGNIFICADO: Mal funcionamiento en el circuito del interruptor de luz de freno (señal de salida deficiente)
+CAUSA PROBABLE:
+- Interruptor de luz de freno defectuoso o mal ajustado
+- Cableado del interruptor con daños o conexión suelta
+- Fusible del circuito de luces de freno quemado
+- Bombillas de luces de freno fundidas
+- Módulo ABS que no recibe señal del interruptor de freno
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de ABS encendida
+- Luces de freno traseras que no encienden
+- Crucero (control de velocidad) que no funciona
+- Posible desactivación del sistema DSC
+SOLUCIÓN:
+- Verificar y reemplazar bombillas de freno traseras si están fundidas
+- Revisar y ajustar el interruptor de luz de freno
+- Comprobar el fusible del circuito de luces de freno
+- Inspeccionar el cableado del interruptor
+- Reemplazar el interruptor si está defectuoso
+
+================================================================================
+
+CÓDIGO: C0200
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda delantera derecha (circuito de frecuencia)
+CAUSA PROBABLE:
+- Sensor de velocidad con señal de frecuencia fuera de rango
+- Anillo reluctor con irregularidades o contaminación
+- Cableado del sensor con interferencia electromagnética
+- Distancia incorrecta entre sensor y anillo reluctor
+- Módulo ABS con fallo de lectura de señal
+SÍNTOMAS:
+- Luz de ABS encendida
+- Sistema de estabilidad DSC desactivado
+- Posible activación del ABS en condiciones normales de frenado
+- Comportamiento errático del ABS
+- Luz de Control de Tracción encendida
+SOLUCIÓN:
+- Limpiar el sensor y el anillo reluctor
+- Verificar la distancia entre sensor y anillo reluctor
+- Revisar el cableado en busca de interferencias
+- Medir la frecuencia de señal del sensor con escáner
+- Reemplazar sensor si la señal es incorrecta
+
+================================================================================
+
+CÓDIGO: C0242
+SIGNIFICADO: Código de fallo en el sistema de control de tracción (DSC/TCS) - señal de PCM
+CAUSA PROBABLE:
+- Fallo de comunicación entre PCM y módulo ABS/DSC
+- Cableado del bus CAN con daños o cortocircuito
+- Módulo DSC defectuoso
+- Actualización de software pendiente en el módulo
+- Fallo en sensores relacionados (velocidad de rueda, aceleración lateral)
+SÍNTOMAS:
+- Luz de DSC/TCS encendida
+- Luz de Check Engine encendida
+- Sistema DSC desactivado
+- Control de tracción no disponible
+- Posible comportamiento inestable en curvas o superficies resbaladizas
+SOLUCIÓN:
+- Verificar la comunicación CAN entre módulos con escáner BMW
+- Inspeccionar el cableado del bus CAN
+- Actualizar software del módulo DSC si hay versión disponible
+- Revisar todos los sensores relacionados con el DSC
+- Consultar técnico especialista BMW para diagnóstico avanzado
+
+================================================================================
+
+CÓDIGO: C0265
+SIGNIFICADO: Relé del motor del ABS - circuito abierto o cortocircuito a tierra
+CAUSA PROBABLE:
+- Relé del motor ABS defectuoso o quemado
+- Fusible del circuito del relé ABS quemado
+- Cableado del relé con cortocircuito a tierra
+- Conector del relé con corrosión o daños
+- Módulo ABS con fallo de control del relé
+SÍNTOMAS:
+- Luz de ABS encendida
+- Sistema ABS completamente inhabilitado
+- Posible luz de Check Engine encendida
+- Pedal de freno sin asistencia del ABS
+- Mayor distancia de frenado en superficie resbaladiza
+SOLUCIÓN:
+- Verificar y reemplazar el fusible del relé ABS
+- Probar el relé ABS con multímetro
+- Inspeccionar el cableado del relé en busca de cortocircuitos
+- Revisar el conector del relé y limpiar terminales
+- Reemplazar el relé si está defectuoso

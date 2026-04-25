@@ -1,0 +1,137 @@
+SISTEMA: Emisiones
+DOCUMENTO: emisiones_parte2.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Control de Emisiones (Parte 2)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: P0442
+SIGNIFICADO: Fuga pequeña detectada en el sistema de control de emisiones evaporativas (EVAP)
+CAUSA PROBABLE:
+- Tapa del depósito de combustible con junta dañada o mal cerrada
+- Pequeñas grietas en mangueras del sistema EVAP
+- Válvula de ventilación del canister con pequeña fuga
+- Sensor de presión del tanque de combustible con fuga
+- Conector del canister con daños leves
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible olor leve a combustible cerca del vehículo
+- Sin síntomas durante la conducción
+- Fallo en prueba de emisiones
+SOLUCIÓN:
+- Verificar y reemplazar la tapa del depósito de combustible
+- Inspeccionar todas las mangueras del sistema EVAP con prueba de humo
+- Verificar el sensor de presión del tanque
+- Revisar el canister de carbón activado y sus conexiones
+- Reemplazar los componentes con fugas detectadas
+
+================================================================================
+
+CÓDIGO: P0443
+SIGNIFICADO: Fallo en el circuito del solenoide de la válvula de purga del sistema EVAP
+CAUSA PROBABLE:
+- Solenoide de la válvula de purga defectuoso o con circuito abierto
+- Cableado del solenoide con daños, cortocircuito o corrosión
+- Conector del solenoide con mal contacto
+- ECM con problema en el control del solenoide de purga
+- Válvula de purga mecánicamente dañada
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible olor a combustible
+- En algunos casos, dificultad para arrancar en caliente
+- Sin síntomas notables durante la conducción normal
+SOLUCIÓN:
+- Medir la resistencia del solenoide de purga con multímetro (rango típico: 22-30 ohms)
+- Verificar el cableado y conector del solenoide
+- Probar la señal de control del ECM al solenoide
+- Reemplazar el solenoide si está defectuoso
+- Verificar el ECM si el solenoide está bien pero el código persiste
+
+================================================================================
+
+CÓDIGO: P0446
+SIGNIFICADO: Mal funcionamiento en el circuito de control de ventilación del sistema EVAP
+CAUSA PROBABLE:
+- Válvula de ventilación del canister (vent valve) defectuosa o atascada
+- Cableado de la válvula de ventilación con daños
+- Canister de carbón activado obstruido
+- Filtro del canister obstruido con suciedad
+- ECM con fallo en el control de la válvula de ventilación
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible dificultad leve para cargar combustible (boquilla que se corta)
+- Sin síntomas durante la conducción normal
+- Fallo en prueba de emisiones
+SOLUCIÓN:
+- Inspeccionar la válvula de ventilación del canister
+- Verificar el cableado de la válvula
+- Revisar el canister de carbón activado por obstrucciones
+- Limpiar o reemplazar el filtro del canister
+- Reemplazar la válvula de ventilación si está defectuosa
+
+================================================================================
+
+CÓDIGO: P0455
+SIGNIFICADO: Fuga grande detectada en el sistema de control de emisiones evaporativas (EVAP)
+CAUSA PROBABLE:
+- Tapa del depósito de combustible completamente ausente o muy dañada
+- Manguera del EVAP desconectada o rota
+- Válvula de purga o ventilación con fuga grande
+- Canister de carbón activado roto o con fuga significativa
+- Conector del tanque de combustible con daños
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Olor fuerte a combustible cerca del vehículo
+- En casos graves, vapores de combustible visibles
+- Fallo en prueba de emisiones
+SOLUCIÓN:
+- Verificar que la tapa del depósito esté puesta y cierre bien
+- Inspeccionar visualmente todas las mangueras del sistema EVAP
+- Realizar prueba de humo para localizar la fuga grande
+- Reemplazar componentes con fugas detectadas
+- Verificar el canister y todas sus conexiones
+
+================================================================================
+
+CÓDIGO: P0456
+SIGNIFICADO: Fuga muy pequeña detectada en el sistema de control de emisiones evaporativas (EVAP)
+CAUSA PROBABLE:
+- Junta de la tapa del depósito de combustible ligeramente deteriorada
+- Microgrietras en mangueras del sistema EVAP
+- Pequeña fuga en el sensor de presión del tanque
+- Conector del sistema EVAP con leve corrosión
+- Válvula de purga con fuga mínima
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Sin síntomas físicos perceptibles durante la conducción
+- Sin olor a combustible perceptible
+- Solo detectable con prueba de humo especializada
+SOLUCIÓN:
+- Comenzar reemplazando la tapa del depósito de combustible (solución más económica)
+- Realizar prueba de humo con equipo especializado para localizar la microfuga
+- Inspeccionar todas las mangueras del EVAP con atención
+- Verificar el sensor de presión del tanque
+- Reemplazar el componente con la fuga detectada
+
+================================================================================
+
+CÓDIGO: P0403
+SIGNIFICADO: Mal funcionamiento en el circuito del solenoide de control de la válvula EGR
+CAUSA PROBABLE:
+- Solenoide de control EGR defectuoso o con circuito abierto
+- Cableado del solenoide con daños, cortocircuito o corrosión
+- Conector del solenoide EGR con mal contacto
+- ECM con fallo en la señal de control del solenoide EGR
+- Válvula EGR mecánicamente dañada o atascada
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Ralentí irregular o motor que trepida
+- Pérdida de potencia a bajas RPM
+- Mayor consumo de combustible
+- Posible humo excesivo por el escape
+SOLUCIÓN:
+- Medir la resistencia del solenoide EGR con multímetro
+- Verificar el cableado y conector del solenoide
+- Limpiar el solenoide EGR si tiene depósitos de carbón
+- Reemplazar el solenoide si está defectuoso
+- Verificar el ECM si el solenoide está bien pero el código persiste

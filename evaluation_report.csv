@@ -1,0 +1,13 @@
+id,question,expected_source,retrieved_sources,precision_at_k,recall_at_k,latency_seconds
+1,¿Qué significa el código P0171 en un BMW?,motor_parte1.txt,"frenos_abs_parte2.txt, frenos_abs_parte1.txt, motor_parte3.txt, electrico_bateria_parte1.txt, electrico_bateria_parte1.txt",0.0,0.0,1.34
+2,¿Cuáles son las causas del código P0300?,motor_parte2.txt,"motor_parte3.txt, motor_parte3.txt, direccion_parte2.txt, electrico_bateria_parte2.txt, electrico_bateria_parte2.txt",0.0,0.0,1.2
+3,¿Qué síntomas produce el código P0700 en la transmisión?,transmision_parte1.txt,"transmision_parte2.txt, transmision_parte1.txt, emisiones_parte1.txt, electrico_bateria_parte1.txt, transmision_parte2.txt",0.2,1.0,0.98
+4,¿Cómo solucionar el código C0031 del sensor de velocidad de rueda?,frenos_abs_parte1.txt,"motor_parte3.txt, direccion_parte1.txt, frenos_abs_parte1.txt, transmision_parte1.txt, direccion_parte1.txt",0.2,1.0,0.95
+5,¿Qué indica el código P0562 relacionado con la batería?,electrico_bateria_parte1.txt,"electrico_bateria_parte1.txt, electrico_bateria_parte1.txt, electrico_bateria_parte1.txt, emisiones_parte1.txt, emisiones_parte1.txt",0.6,1.0,0.94
+6,¿Qué significa el código B0001 del airbag en BMW?,airbag_carroceria_parte1.txt,"airbag_carroceria_parte1.txt, airbag_carroceria_parte2.txt, airbag_carroceria_parte1.txt, airbag_carroceria_parte2.txt, airbag_carroceria_parte1.txt",0.6,1.0,0.93
+7,¿Cuál es la causa más común del código P0401 del sistema EGR en BMW?,emisiones_parte1.txt,"frenos_abs_parte2.txt, frenos_abs_parte1.txt, electrico_bateria_parte2.txt, electrico_bateria_parte1.txt, electrico_bateria_parte1.txt",0.0,0.0,1.11
+8,¿Qué produce el código C0460 en el sistema de dirección?,direccion_parte1.txt,"direccion_parte1.txt, direccion_parte2.txt, direccion_parte1.txt, electrico_bateria_parte2.txt, electrico_bateria_parte2.txt",0.4,1.0,7.37
+9,¿Qué síntomas tiene un BMW con el código P0128?,motor_parte1.txt,"frenos_abs_parte2.txt, electrico_bateria_parte1.txt, frenos_abs_parte1.txt, direccion_parte2.txt, motor_parte3.txt",0.0,0.0,0.92
+10,¿Qué es el código P0420 y cómo se soluciona?,motor_parte3.txt,"motor_parte3.txt, emisiones_parte1.txt, transmision_parte1.txt, motor_parte3.txt, electrico_bateria_parte2.txt",0.4,1.0,6.76
+11,¿Qué indica el código P0087 en BMW?,motor_parte2.txt,"frenos_abs_parte2.txt, frenos_abs_parte1.txt, electrico_bateria_parte1.txt, electrico_bateria_parte1.txt, motor_parte3.txt",0.0,0.0,7.27
+12,¿Cómo afecta el código P0442 al vehículo?,emisiones_parte2.txt,"electrico_bateria_parte2.txt, emisiones_parte1.txt, motor_parte3.txt, motor_parte1.txt, frenos_abs_parte2.txt",0.0,0.0,7.36

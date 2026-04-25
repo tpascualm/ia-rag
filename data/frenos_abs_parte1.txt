@@ -1,0 +1,142 @@
+SISTEMA: Frenos / ABS
+DOCUMENTO: frenos_abs_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Frenos y ABS (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: C0031
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda delantera izquierda
+CAUSA PROBABLE:
+- Sensor de velocidad de rueda delantera izquierda defectuoso o dañado
+- Arnés del sensor con cortocircuito, circuito abierto o corrosión
+- Anillo reluctor (tónico) dañado o con dientes rotos
+- Suciedad, polvo metálico o grasa acumulada en el sensor
+- Módulo ABS (EBCM) defectuoso
+SÍNTOMAS:
+- Luz de advertencia del ABS encendida
+- Luz de Check Engine encendida
+- Sistema ABS desactivado
+- Control de tracción (DSC/TCS) desactivado
+- Comportamiento inestable al frenar en superficies mojadas
+SOLUCIÓN:
+- Inspeccionar visualmente el sensor y su cableado
+- Limpiar el sensor y el anillo reluctor
+- Verificar continuidad del cableado con multímetro
+- Revisar el anillo reluctor en busca de dientes rotos o deformados
+- Reemplazar el sensor si está defectuoso
+
+================================================================================
+
+CÓDIGO: C0034
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda delantera derecha
+CAUSA PROBABLE:
+- Sensor de velocidad de rueda delantera derecha dañado o defectuoso
+- Cableado del sensor con corrosión, cortocircuito o daños físicos
+- Conector del sensor con terminales corroídos o flojos
+- Anillo reluctor desgastado o dañado
+- Módulo ABS defectuoso
+SÍNTOMAS:
+- Luz de advertencia del ABS encendida
+- Luz de Check Engine encendida
+- ABS desactivado
+- Sistema DSC (control dinámico de estabilidad) desactivado
+- Velocímetro con lecturas irregulares posibles
+SOLUCIÓN:
+- Revisar el sensor de velocidad y su cableado
+- Limpiar los terminales del conector con limpiador eléctrico
+- Comprobar el anillo reluctor por daños físicos
+- Medir señal del sensor con escáner automotriz
+- Reemplazar el sensor si la señal es incorrecta o ausente
+
+================================================================================
+
+CÓDIGO: C0040
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda delantera derecha (circuito)
+CAUSA PROBABLE:
+- Sensor de velocidad de rueda delantera derecha con fallo en su circuito
+- Cables del sensor dañados por corrosión, rozamiento o quemaduras
+- Conector eléctrico con falso contacto
+- Anillo reluctor con dientes rotos o deformados
+- Módulo de control electrónico de frenos (EBCM) dañado
+SÍNTOMAS:
+- Luz ABS encendida
+- Luz Check Engine encendida
+- ABS, TCS y ESP desactivados
+- Frenado irregular o inseguro en condiciones de emergencia
+- Comportamiento inestable del vehículo en curvas con piso mojado
+SOLUCIÓN:
+- Inspección visual completa del sensor y su entorno
+- Limpieza del sensor y del anillo reluctor
+- Revisión del cableado con multímetro (continuidad y voltaje)
+- Verificar la correcta separación entre sensor y anillo reluctor
+- Reemplazar sensor si la prueba confirma fallo
+
+================================================================================
+
+CÓDIGO: C0045
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda trasera izquierda
+CAUSA PROBABLE:
+- Sensor de velocidad de rueda trasera izquierda defectuoso o corroído
+- Cables del sensor con cortocircuito o circuito abierto
+- Conector del sensor con altos niveles de corrosión
+- Anillo reluctor del eje trasero izquierdo dañado
+- Módulo ABS (EBCM) defectuoso
+SÍNTOMAS:
+- Luz de advertencia del ABS encendida
+- Luz de Check Engine encendida
+- Velocidad del vehículo irregular en el tablero
+- Golpeteo leve perceptible en el interruptor de freno
+- ABS y control de estabilidad desactivados
+SOLUCIÓN:
+- Inspeccionar cables y conectores del sensor trasero izquierdo
+- Revisar por quemaduras, corrosión o daños físicos
+- Realizar prueba de voltaje al circuito del sensor
+- Verificar estado del anillo reluctor trasero izquierdo
+- Reemplazar sensor si se confirma fallo
+
+================================================================================
+
+CÓDIGO: C0051
+SIGNIFICADO: Mal funcionamiento en el circuito del sensor de velocidad de la rueda trasera derecha
+CAUSA PROBABLE:
+- Sensor de velocidad de rueda trasera derecha dañado
+- Cableado del sensor con daños por exposición al calor o rozamiento
+- Conector con terminales corroídos o doblados
+- Anillo reluctor trasero derecho con dientes rotos
+- Módulo ABS con fallo interno
+SÍNTOMAS:
+- Luz de ABS encendida
+- Luz de Check Engine encendida
+- Sistema ABS y DSC desactivados
+- Frenado asimétrico posible en emergencias
+- Posibles lecturas incorrectas del velocímetro
+SOLUCIÓN:
+- Revisar sensor de velocidad trasero derecho y su cableado
+- Limpiar el sensor y el área del anillo reluctor
+- Medir continuidad del circuito del sensor
+- Inspeccionar el anillo reluctor por daños
+- Reemplazar el sensor si está dañado
+
+================================================================================
+
+CÓDIGO: C0060
+SIGNIFICADO: Mal funcionamiento en el circuito del solenoide 1 del ABS - sistema delantero izquierdo
+CAUSA PROBABLE:
+- Cables o conectores del solenoide ABS dañados o quemados
+- Relé del solenoide ABS en mal estado
+- Conexiones eléctricas del sensor de velocidad delantera izquierda deficientes
+- Módulo hidráulico del ABS defectuoso
+- Corto circuito en el circuito del solenoide
+SÍNTOMAS:
+- Luz de ABS encendida
+- Luz de Check Engine encendida
+- Sistema ABS completamente inhabilitado
+- ECM en modo de emergencia activado
+- Frenado sin asistencia del sistema antibloqueo
+SOLUCIÓN:
+- Verificar cables y conectores del relé del solenoide ABS
+- Probar voltaje del solenoide y comparar con especificaciones
+- Revisar el relé del solenoide ABS
+- Inspeccionar el módulo hidráulico del ABS
+- Consultar a técnico especializado en sistemas ABS BMW

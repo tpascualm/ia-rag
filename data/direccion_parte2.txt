@@ -1,0 +1,142 @@
+SISTEMA: Dirección
+DOCUMENTO: direccion_parte2.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Dirección Asistida (Parte 2)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: C0561
+SIGNIFICADO: Mal funcionamiento del sistema de control de tracción (DSC) - inhabilitado
+CAUSA PROBABLE:
+- Señal inválida del sensor de ángulo de dirección
+- Sensor de guiñada (yaw rate) con fallo
+- Sensor de aceleración lateral defectuoso
+- Módulo DSC con fallo interno
+- Fallo en la comunicación entre módulos por el bus CAN
+SÍNTOMAS:
+- Luz de DSC encendida en el tablero
+- Sistema de control de tracción desactivado
+- Vehículo sin asistencia electrónica en condiciones de poca tracción
+- Posibles luces adicionales del ABS o Check Engine
+- Comportamiento inestable en superficies resbaladizas
+SOLUCIÓN:
+- Verificar todos los sensores relacionados con el DSC (guiñada, ángulo de dirección, velocidad de ruedas)
+- Inspeccionar el módulo DSC y sus conexiones
+- Verificar el bus CAN entre módulos
+- Usar escáner BMW para diagnóstico profundo del sistema DSC
+- Reparar o reemplazar el componente fallido identificado
+
+================================================================================
+
+CÓDIGO: C0710
+SIGNIFICADO: Fallo en el circuito del sensor de posición del volante - rendimiento
+CAUSA PROBABLE:
+- Sensor de posición del volante con desgaste o daño interno
+- Reloj de contacto (spiral cable) del volante defectuoso
+- Señal del sensor con ruido o interferencia eléctrica
+- Conector del sensor con mal contacto intermitente
+- Módulo de dirección con problema de procesamiento de señal
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de advertencia de dirección encendida
+- Control de estabilidad (DSC) con intervenciones erróneas
+- Dirección con respuesta imprecisa o intermitente
+- Posibles fallos intermitentes en el control de crucero activo
+SOLUCIÓN:
+- Inspeccionar el reloj de contacto (spiral cable) del volante
+- Verificar el sensor de posición del volante y su cableado
+- Medir la señal del sensor con escáner en tiempo real
+- Revisar el conector del sensor por contactos intermitentes
+- Reemplazar el reloj de contacto o sensor si está defectuoso
+
+================================================================================
+
+CÓDIGO: C0800
+SIGNIFICADO: Fallo en el suministro de energía del módulo de control de dirección asistida
+CAUSA PROBABLE:
+- Voltaje de alimentación del módulo EPS fuera de rango
+- Fusible del módulo de dirección asistida quemado
+- Relé del circuito de dirección defectuoso
+- Cableado de alimentación del módulo con alta resistencia o daños
+- Batería muy baja que no suministra voltaje suficiente al módulo
+SÍNTOMAS:
+- Luz de dirección asistida encendida
+- Pérdida total de asistencia de dirección
+- Volante muy pesado especialmente en maniobras a baja velocidad
+- Posible luz de Check Engine encendida
+- Múltiples sistemas afectados simultáneamente
+SOLUCIÓN:
+- Verificar el fusible del módulo de dirección asistida
+- Medir el voltaje de alimentación del módulo EPS
+- Revisar el relé del circuito de dirección
+- Inspeccionar el cableado de alimentación del módulo
+- Verificar el estado de la batería y el sistema de carga
+
+================================================================================
+
+CÓDIGO: C1101
+SIGNIFICADO: Fallo en la bomba de dirección asistida hidráulica - presión insuficiente
+CAUSA PROBABLE:
+- Bomba de dirección asistida desgastada o defectuosa
+- Nivel bajo de fluido de dirección asistida
+- Fluido de dirección asistida muy degradado o contaminado
+- Correa de la bomba de dirección rota o floja
+- Válvula de control de presión de la bomba defectuosa
+SÍNTOMAS:
+- Luz de dirección asistida o Check Engine encendida
+- Volante pesado o con resistencia al girar
+- Ruido de silbido al girar el volante (especialmente en frío)
+- Mayor esfuerzo necesario en maniobras a baja velocidad
+- Posibles fugas de fluido de dirección en el suelo
+SOLUCIÓN:
+- Verificar el nivel del fluido de dirección asistida
+- Inspeccionar fugas en las mangueras y conexiones del sistema
+- Revisar la correa de la bomba de dirección
+- Cambiar el fluido si está muy degradado o contaminado
+- Reemplazar la bomba si está desgastada o defectuosa
+
+================================================================================
+
+CÓDIGO: P0500
+SIGNIFICADO: Mal funcionamiento del sensor de velocidad del vehículo (VSS)
+CAUSA PROBABLE:
+- Sensor de velocidad del vehículo (VSS) defectuoso
+- Cableado del sensor con daños, cortocircuito o circuito abierto
+- Rueda fónica del sensor dañada
+- Módulo de control con problema en la lectura del VSS
+- Interferencia en la señal del sensor de velocidad
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Velocímetro con lecturas incorrectas o sin funcionamiento
+- Control de crucero que no funciona
+- Posibles problemas con los cambios de la transmisión automática
+- Sistema DSC con funcionamiento incorrecto
+SOLUCIÓN:
+- Verificar el sensor VSS y su cableado
+- Inspeccionar la rueda fónica del sensor
+- Medir la señal del sensor con escáner en tiempo real
+- Revisar el conector del sensor por corrosión
+- Reemplazar el sensor si está defectuoso
+
+================================================================================
+
+CÓDIGO: P0852
+SIGNIFICADO: Interruptor de rango de transmisión (Park/Neutral) - entrada de circuito alta
+CAUSA PROBABLE:
+- Interruptor inhibidor de la transmisión defectuoso o desajustado
+- Cableado del interruptor con cortocircuito a voltaje
+- Conector del interruptor con corrosión
+- Módulo de control con problema en la lectura del interruptor
+- Interruptor de posición de rango de transmisión fuera de ajuste
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor que puede arrancar en marchas (seguridad comprometida)
+- Luz de posición de la transmisión con lecturas incorrectas
+- Control de crucero que no funciona correctamente
+- Posibles problemas con el arranque del motor
+SOLUCIÓN:
+- Verificar el ajuste del interruptor inhibidor de transmisión
+- Inspeccionar el cableado y conector del interruptor
+- Medir el voltaje del circuito del interruptor
+- Ajustar o reemplazar el interruptor si está desajustado o defectuoso
+- Verificar el módulo de control si el interruptor está bien

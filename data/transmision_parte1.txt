@@ -1,0 +1,142 @@
+SISTEMA: Transmisión
+DOCUMENTO: transmision_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Transmisión Automática (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5 con transmisión automática
+
+================================================================================
+
+CÓDIGO: P0700
+SIGNIFICADO: Mal funcionamiento del sistema de control de la transmisión (TCM)
+CAUSA PROBABLE:
+- Módulo de control de la transmisión (TCM) defectuoso
+- Sensor de velocidad de entrada o salida de la transmisión dañado
+- Nivel bajo o contaminado de fluido de transmisión
+- Solenoide de la transmisión dañado
+- Fallo eléctrico en el cableado del TCM
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de transmisión o indicador de falla encendido
+- Cambios de marcha bruscos o irregulares
+- Transmisión que se queda fija en una marcha (modo de emergencia)
+- Posible pérdida de potencia al acelerar
+SOLUCIÓN:
+- Verificar el nivel y condición del fluido de transmisión
+- Usar escáner OBD2 para identificar códigos secundarios del TCM
+- Revisar conectores y cableado del TCM
+- Inspeccionar solenoides de la transmisión
+- Consultar a especialista en transmisiones automáticas BMW
+
+================================================================================
+
+CÓDIGO: P0715
+SIGNIFICADO: Circuito del sensor de velocidad de entrada/turbina de la transmisión - fallo
+CAUSA PROBABLE:
+- Sensor de velocidad de entrada (turbina) defectuoso
+- Cableado del sensor dañado, cortocircuito o circuito abierto
+- Conector del sensor sucio o con corrosión
+- Fluido de transmisión muy sucio que interfiere con el sensor
+- TCM defectuoso
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Cambios de marcha bruscos o en momentos incorrectos
+- Transmisión que no cambia de marcha suavemente
+- Comportamiento errático de la transmisión
+- Posible activación del modo de emergencia
+SOLUCIÓN:
+- Verificar el nivel y condición del fluido de transmisión
+- Inspeccionar el sensor de velocidad de entrada y su cableado
+- Limpiar el conector del sensor
+- Medir la señal del sensor con escáner
+- Reemplazar el sensor si está fuera de especificación
+
+================================================================================
+
+CÓDIGO: P0722
+SIGNIFICADO: Circuito del sensor de velocidad de salida de la transmisión - sin señal
+CAUSA PROBABLE:
+- Sensor de velocidad de salida defectuoso o dañado
+- Cableado del sensor con daños, corrosión o desconexión
+- Rueda fónica del eje de salida dañada
+- Fluido de transmisión muy contaminado
+- TCM con problemas internos
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Velocímetro con lecturas incorrectas o sin funcionamiento
+- Cambios de marcha bruscos o irregulares
+- Sistema ABS puede verse afectado
+- Posible activación del modo de emergencia
+SOLUCIÓN:
+- Verificar el sensor de velocidad de salida y su cableado
+- Inspeccionar la rueda fónica del eje de salida
+- Revisar conexiones eléctricas del sensor
+- Cambiar fluido de transmisión si está muy contaminado
+- Reemplazar el sensor si está dañado
+
+================================================================================
+
+CÓDIGO: P0730
+SIGNIFICADO: Relación de marcha incorrecta en la transmisión
+CAUSA PROBABLE:
+- Nivel bajo o contaminado de fluido de transmisión
+- Solenoide de cambio de marcha defectuoso o atascado
+- Embrague o banda de la transmisión desgastada
+- Sensor de velocidad de entrada o salida con fallo
+- TCM con calibración incorrecta o defectuoso
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Cambios de marcha irregulares o en momentos incorrectos
+- Transmisión que se queda en una marcha
+- Sensación de patinamiento durante el cambio de marcha
+- Pérdida de potencia o aceleración deficiente
+SOLUCIÓN:
+- Verificar y cambiar el fluido de transmisión si está contaminado
+- Revisar solenoides de cambio de marcha
+- Inspeccionar bandas y embragues de la transmisión
+- Verificar sensores de velocidad
+- Reprogramar el TCM si es necesario
+
+================================================================================
+
+CÓDIGO: P0740
+SIGNIFICADO: Circuito del solenoide del convertidor de par (TCC) - fallo general
+CAUSA PROBABLE:
+- Solenoide del TCC defectuoso o atascado
+- Fluido de transmisión bajo o muy sucio
+- Cableado del solenoide dañado o con cortocircuito
+- Convertidor de par dañado internamente
+- TCM defectuoso
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Consumo excesivo de combustible
+- Motor con revoluciones altas a velocidades normales de crucero
+- Vibración o sacudida al circular a velocidad constante
+- Transmisión que no entra en modo bloqueo (lockup)
+SOLUCIÓN:
+- Verificar y cambiar el fluido de transmisión
+- Revisar el solenoide TCC y su cableado
+- Probar el circuito del solenoide con multímetro
+- Inspeccionar el convertidor de par
+- Reemplazar el solenoide si está defectuoso
+
+================================================================================
+
+CÓDIGO: P0741
+SIGNIFICADO: Circuito del solenoide del convertidor de par (TCC) - atascado desactivado
+CAUSA PROBABLE:
+- Solenoide TCC atascado en posición desactivada
+- Fluido de transmisión muy desgastado o contaminado
+- Disco de bloqueo del convertidor de par desgastado
+- Cableado del solenoide con fallo intermitente
+- Presión hidráulica insuficiente en la transmisión
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Mayor consumo de combustible en carretera
+- RPM más altas de lo normal a velocidades de crucero
+- Vibración leve al circular a velocidades medias-altas
+- El vehículo no entra en modo ahorro de combustible (lockup)
+SOLUCIÓN:
+- Cambiar el fluido de transmisión y filtro
+- Verificar la presión hidráulica de la transmisión
+- Revisar y reemplazar el solenoide TCC
+- Inspeccionar el convertidor de par
+- Verificar el TCM y su programación

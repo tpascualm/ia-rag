@@ -1,0 +1,142 @@
+SISTEMA: Eléctrico / Batería
+DOCUMENTO: electrico_bateria_parte2.txt
+FUENTE: Códigos OBD-II para BMW - Sistema Eléctrico y Batería (Parte 2)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: U0100
+SIGNIFICADO: Pérdida de comunicación con el módulo de control del motor (ECM/PCM) - bus CAN
+CAUSA PROBABLE:
+- Fallo en el bus CAN (red de comunicación entre módulos)
+- ECM/PCM desconectado o con fallo de alimentación
+- Cableado del bus CAN con cortocircuito o circuito abierto
+- Conector del ECM con corrosión o daños
+- Batería muy descargada que interrumpe la comunicación
+SÍNTOMAS:
+- Múltiples luces de advertencia encendidas simultáneamente
+- Motor que no arranca o arranca con dificultad
+- Escáner OBD2 que no puede comunicarse con el ECM
+- Sistemas de seguridad y confort desactivados
+- Posible activación de modo de emergencia
+SOLUCIÓN:
+- Verificar el voltaje de la batería (mínimo 12V)
+- Inspeccionar el cableado del bus CAN con multímetro
+- Revisar el conector del ECM por corrosión o daños
+- Verificar los fusibles relacionados con el ECM
+- Usar escáner BMW especializado para diagnóstico del bus CAN
+
+================================================================================
+
+CÓDIGO: U0101
+SIGNIFICADO: Pérdida de comunicación con el módulo de control de transmisión (TCM) - bus CAN
+CAUSA PROBABLE:
+- Fallo en el cableado del bus CAN hacia el TCM
+- TCM sin alimentación o tierra deficiente
+- Conector del TCM con corrosión o mal contacto
+- Módulo TCM defectuoso
+- Fallo en el nodo del bus CAN del TCM
+SÍNTOMAS:
+- Luz de transmisión encendida
+- Múltiples luces de advertencia en el tablero
+- Cambios de marcha erráticos o transmisión en modo emergencia
+- Escáner OBD2 que no puede leer datos del TCM
+- Posibles otros códigos relacionados con la transmisión
+SOLUCIÓN:
+- Verificar la alimentación y tierra del TCM
+- Inspeccionar el cableado y conector del TCM
+- Revisar el bus CAN con osciloscopio si es posible
+- Verificar el TCM con escáner especializado
+- Reemplazar el TCM si está confirmado el fallo
+
+================================================================================
+
+CÓDIGO: U0121
+SIGNIFICADO: Pérdida de comunicación con el módulo de control del ABS - bus CAN
+CAUSA PROBABLE:
+- Módulo ABS sin alimentación o tierra deficiente
+- Cableado del bus CAN hacia el módulo ABS dañado
+- Conector del módulo ABS con corrosión
+- Módulo ABS defectuoso
+- Fallo general en el bus CAN del vehículo
+SÍNTOMAS:
+- Luz de ABS encendida
+- Luz de DSC/TCS encendida
+- Múltiples luces de advertencia encendidas
+- Sistemas de seguridad activa desactivados
+- Escáner no puede comunicarse con módulo ABS
+SOLUCIÓN:
+- Verificar fusibles del módulo ABS
+- Inspeccionar conectores y cableado del módulo ABS
+- Verificar alimentación y tierra del módulo ABS
+- Revisar el bus CAN con herramienta especializada
+- Reemplazar el módulo ABS si está defectuoso
+
+================================================================================
+
+CÓDIGO: B1001
+SIGNIFICADO: Fallo en el módulo de control de carrocería (BCM) - error interno del ECU
+CAUSA PROBABLE:
+- Módulo BCM con fallo interno de hardware o software
+- Problema de alimentación o tierra del BCM
+- Daño por agua o humedad en el módulo
+- Pico de voltaje que dañó el BCM
+- Fallo de comunicación entre el BCM y otros módulos
+SÍNTOMAS:
+- Múltiples sistemas de confort y carrocería sin funcionar
+- Ventanas eléctricas, espejos o cerraduras centrales con fallos
+- Luces interiores y exteriores con comportamiento anormal
+- Sistema de alarma con problemas
+- Posibles luces de advertencia en el tablero
+SOLUCIÓN:
+- Verificar la alimentación y tierra del BCM
+- Inspeccionar el BCM por daño de agua o físico
+- Intentar reprogramación o reinicio del BCM
+- Revisar el cableado del bus CAN relacionado con el BCM
+- Reemplazar el BCM si está confirmado el fallo interno
+
+================================================================================
+
+CÓDIGO: B2013
+SIGNIFICADO: Fallo en el sensor de temperatura interior del vehículo
+CAUSA PROBABLE:
+- Sensor de temperatura interior defectuoso o dañado
+- Cableado del sensor con daños o cortocircuito
+- Conector del sensor con corrosión
+- Módulo de climatización automática (IHKA) con problemas
+- Obstrucción en el conducto de ventilación del sensor
+SÍNTOMAS:
+- Climatización automática con temperatura incorrecta
+- Luz de advertencia de climatización encendida
+- Sistema de aire acondicionado que trabaja de forma irregular
+- Temperatura del habitáculo muy diferente a la seleccionada
+- Posible activación del modo manual de climatización
+SOLUCIÓN:
+- Inspeccionar el sensor de temperatura interior y su cableado
+- Limpiar el conducto de ventilación del sensor
+- Medir la resistencia del sensor con multímetro
+- Revisar el módulo IHKA con escáner BMW
+- Reemplazar el sensor si está fuera de especificación
+
+================================================================================
+
+CÓDIGO: B2025
+SIGNIFICADO: Fallo en el circuito del motor del espejo retrovisor exterior
+CAUSA PROBABLE:
+- Motor del espejo eléctrico defectuoso o bloqueado
+- Cableado del espejo con daños o cortocircuito
+- Conector del espejo con corrosión o mal contacto
+- Módulo BCM con problema en el circuito de control del espejo
+- Fusible del circuito del espejo quemado
+SÍNTOMAS:
+- Espejo exterior que no se ajusta eléctricamente
+- Posible luz de advertencia de carrocería en el tablero
+- Solo uno de los espejos sin funcionamiento
+- Espejo que hace ruido pero no se mueve
+- Control del espejo en el panel de puerta sin respuesta
+SOLUCIÓN:
+- Verificar el fusible del circuito del espejo
+- Inspeccionar el cableado y conector del espejo
+- Probar el motor del espejo con alimentación directa
+- Revisar el módulo BCM con escáner BMW
+- Reemplazar el motor o el espejo completo si está defectuoso

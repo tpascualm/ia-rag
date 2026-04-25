@@ -1,0 +1,140 @@
+SISTEMA: Emisiones
+DOCUMENTO: emisiones_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Control de Emisiones (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: P0401
+SIGNIFICADO: Flujo insuficiente detectado en el sistema de recirculación de gases de escape (EGR)
+CAUSA PROBABLE:
+- Válvula EGR obstruida con depósitos de carbón (causa más común en BMW)
+- Válvula EGR defectuosa o atascada en posición cerrada
+- Tubería o conducto del EGR obstruido con hollín
+- Sensor de posición de la válvula EGR dañado
+- Cableado del solenoide EGR con daños
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor con ralentí irregular o rugoso
+- Reducción del rendimiento del motor
+- Mayor consumo de combustible
+- Posible olor a gases de escape dentro del vehículo
+SOLUCIÓN:
+- Limpiar la válvula EGR y sus conductos (muy común en BMW diésel)
+- Verificar el solenoide de control EGR
+- Inspeccionar el sensor de posición de la válvula EGR
+- Revisar tuberías y mangueras del sistema EGR
+- Reemplazar la válvula EGR si no responde a la limpieza
+
+================================================================================
+
+CÓDIGO: P0402
+SIGNIFICADO: Flujo excesivo detectado en el sistema de recirculación de gases de escape (EGR)
+CAUSA PROBABLE:
+- Válvula EGR atascada en posición abierta
+- Sensor de posición de la válvula EGR dando lecturas incorrectas
+- Módulo de control del EGR defectuoso
+- Cortocircuito en el solenoide del EGR
+- Fugas en el sistema EGR
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Ralentí inestable o motor que se cala
+- Humo negro o excesivo por el escape
+- Pérdida de potencia notable
+- Mayor consumo de combustible
+SOLUCIÓN:
+- Verificar la posición y funcionamiento de la válvula EGR
+- Revisar el sensor de posición de la válvula EGR
+- Inspeccionar el cableado del solenoide EGR
+- Limpiar o reemplazar la válvula EGR
+- Verificar el módulo de control del sistema EGR
+
+================================================================================
+
+CÓDIGO: P0411
+SIGNIFICADO: Flujo incorrecto detectado en el sistema de inyección de aire secundario
+CAUSA PROBABLE:
+- Bomba de aire secundario defectuosa o que no opera
+- Válvula de control de aire secundario obstruida o dañada
+- Mangueras del sistema de aire secundario con fugas o desconectadas
+- Relé de la bomba de aire secundario defectuoso
+- Sensor de oxígeno (O2) con lecturas incorrectas durante la prueba
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible ralentí irregular en arranque en frío
+- Mayor tiempo para alcanzar temperatura de operación del catalizador
+- Sin síntomas notables durante la conducción normal
+- Fallo en prueba de emisiones
+SOLUCIÓN:
+- Verificar el funcionamiento de la bomba de aire secundario
+- Revisar el relé de la bomba de aire
+- Inspeccionar mangueras y conexiones del sistema
+- Verificar la válvula de control de aire secundario
+- Reemplazar la bomba si no funciona correctamente
+
+================================================================================
+
+CÓDIGO: P0430
+SIGNIFICADO: Sistema catalizador banco 2 - eficiencia por debajo del umbral
+CAUSA PROBABLE:
+- Catalizador del banco 2 desgastado o dañado
+- Sensor de oxígeno trasero del banco 2 defectuoso
+- Fugas en el escape antes del catalizador del banco 2
+- Daños causados por fallos de encendido no resueltos
+- Aceite o refrigerante entrando a la cámara de combustión
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible olor a azufre en el escape
+- Reducción leve del rendimiento del motor
+- Fallo en prueba de emisiones
+- Sin síntomas graves inicialmente
+SOLUCIÓN:
+- Verificar el sensor O2 trasero del banco 2
+- Inspeccionar el catalizador del banco 2 visualmente
+- Revisar fugas en el sistema de escape
+- Asegurarse de que no haya otros códigos activos
+- Reemplazar el catalizador si está confirmado el daño
+
+================================================================================
+
+CÓDIGO: P0440
+SIGNIFICADO: Mal funcionamiento general del sistema de control de emisiones evaporativas (EVAP)
+CAUSA PROBABLE:
+- Tapa del depósito de combustible mal cerrada o dañada
+- Fugas en las mangueras del sistema EVAP
+- Válvula de purga del EVAP defectuosa
+- Sensor de presión del tanque de combustible dañado
+- Canister de carbón activado saturado u obstruido
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible olor a combustible cerca del vehículo
+- Sin síntomas notables durante la conducción
+- Fallo en prueba de emisiones
+SOLUCIÓN:
+- Verificar que la tapa del depósito de combustible cierre correctamente
+- Inspeccionar mangueras del sistema EVAP en busca de grietas o fugas
+- Verificar la válvula de purga del EVAP
+- Revisar el canister de carbón activado
+- Realizar prueba de humo en el sistema EVAP para localizar fugas
+
+================================================================================
+
+CÓDIGO: P0441
+SIGNIFICADO: Flujo incorrecto en el sistema de control de emisiones evaporativas (EVAP) - purga
+CAUSA PROBABLE:
+- Válvula de purga del EVAP defectuosa (atascada abierta o cerrada)
+- Línea de purga desconectada u obstruida
+- Tapa del depósito de combustible dañada o mal colocada
+- Cableado del solenoide de purga con daños
+- Módulo de control con problema en la señal de purga
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posible olor a combustible
+- Sin síntomas notables en la conducción
+- Dificultad para arrancar en caliente (si válvula atascada abierta)
+SOLUCIÓN:
+- Reemplazar la tapa del depósito si no cierra bien
+- Revisar y limpiar o reemplazar la válvula de purga
+- Inspeccionar la línea de purga en busca de obstrucciones o daños
+- Verificar el cableado del solenoide de purga
+- Realizar prueba de humo para localizar fugas

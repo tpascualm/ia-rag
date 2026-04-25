@@ -1,0 +1,143 @@
+SISTEMA: Dirección
+DOCUMENTO: direccion_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema de Dirección Asistida (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: C0455
+SIGNIFICADO: Fallo en el circuito del sensor de posición del volante (dirección delantera)
+CAUSA PROBABLE:
+- Sensor de posición del volante defectuoso o con circuito abierto
+- Cableado del sensor con daños o corrosión
+- Conector del sensor con mal contacto o terminales oxidados
+- Módulo de control de la dirección con fallo de lectura
+- Tensión de referencia incorrecta en el circuito del sensor
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de advertencia del ABS encendida
+- Dirección con respuesta irregular o pesada
+- Sistema DSC/ESP desactivado o con funcionamiento incorrecto
+- Posibles ruidos extraños al girar el volante
+SOLUCIÓN:
+- Verificar el cableado del sensor de posición del volante
+- Medir los voltajes del circuito del sensor (referencia 5V, señal 0-5V)
+- Inspeccionar el conector del sensor y limpiar terminales
+- Verificar la integridad del sensor con escáner BMW
+- Reemplazar el sensor si está defectuoso
+
+================================================================================
+
+CÓDIGO: C0460
+SIGNIFICADO: Datos no válidos del sensor de ángulo de dirección
+CAUSA PROBABLE:
+- Sensor de ángulo de dirección (SAS) no calibrado después de alineación
+- Sensor de ángulo de dirección defectuoso
+- Cableado del sensor con daños o cortocircuito
+- Conector del sensor con corrosión o mal contacto
+- Problema en el bus CAN que impide la comunicación del sensor
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de advertencia del ABS encendida
+- Luz de advertencia de dirección asistida (EPS) encendida
+- Dificultad para girar el volante o dirección pesada
+- Sistema de control de estabilidad (DSC) desactivado
+- El volante no regresa al centro correctamente
+SOLUCIÓN:
+- Calibrar el sensor de ángulo de dirección con escáner BMW después de toda alineación
+- Inspeccionar el cableado y conector del sensor
+- Medir voltajes del circuito del sensor
+- Verificar la comunicación del sensor en el bus CAN
+- Reemplazar el sensor si no responde a la calibración
+
+================================================================================
+
+CÓDIGO: C0465
+SIGNIFICADO: Fallo en el circuito del sensor de ángulo de dirección - rango/rendimiento
+CAUSA PROBABLE:
+- Sensor de ángulo de dirección con señal fuera del rango esperado
+- Sensor mecánicamente dañado o desalineado
+- Cableado con interferencia electromagnética
+- Módulo de control de la dirección con problema de lectura
+- Sensor no calibrado correctamente
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Sistema DSC con funcionamiento incorrecto
+- Dirección que se siente inestable a altas velocidades
+- Luz de advertencia de dirección asistida encendida
+- Control de tracción que interviene de forma inesperada
+SOLUCIÓN:
+- Verificar la posición y fijación correcta del sensor
+- Calibrar el sensor con escáner BMW especializado
+- Inspeccionar el cableado en busca de interferencias
+- Revisar el módulo de control de la dirección
+- Reemplazar el sensor si está mecánicamente dañado
+
+================================================================================
+
+CÓDIGO: C0470
+SIGNIFICADO: Fallo en el sensor de velocidad de guiñada (yaw rate sensor) - dirección
+CAUSA PROBABLE:
+- Sensor de guiñada (yaw rate sensor) defectuoso
+- Cableado del sensor con daños o cortocircuito
+- Sensor de aceleración lateral defectuoso
+- Módulo DSC con fallo en la lectura del sensor
+- Sensor no calibrado o fuera de posición
+SÍNTOMAS:
+- Luz de DSC/ESP encendida en el tablero
+- Sistema de control de estabilidad desactivado
+- Vehículo con comportamiento inestable en curvas
+- Control de tracción que no interviene correctamente
+- Posible activación del ABS en condiciones normales
+SOLUCIÓN:
+- Verificar el sensor de guiñada y su cableado
+- Calibrar el sensor con escáner BMW especializado
+- Inspeccionar el sensor de aceleración lateral
+- Verificar que el sensor esté correctamente posicionado
+- Reemplazar el sensor de guiñada si está defectuoso
+
+================================================================================
+
+CÓDIGO: U0126
+SIGNIFICADO: Pérdida de comunicación con el sensor de ángulo de dirección - bus CAN
+CAUSA PROBABLE:
+- Fallo en el bus CAN hacia el sensor de ángulo de dirección
+- Sensor de ángulo de dirección sin alimentación o tierra deficiente
+- Cableado de la columna de dirección dañado por desgaste (ajuste de inclinación/telescopio)
+- Conector del sensor flojo o con corrosión
+- Módulo de control ABS o PCM con fallo de comunicación
+SÍNTOMAS:
+- Luz de dirección asistida EPS encendida
+- Sistema de control de estabilidad (DSC) desactivado
+- Dirección pesada o inconsistente
+- Datos del ángulo de dirección congelados en 0° en el escáner
+- Vehículo inestable al tomar curvas o sobre superficies resbaladizas
+SOLUCIÓN:
+- Verificar la alimentación y tierra del sensor de ángulo de dirección
+- Inspeccionar el cableado de la columna de dirección por desgaste
+- Asegurar el conector del sensor debajo de la columna
+- Verificar el bus CAN con osciloscopio o escáner avanzado
+- Reparar el cableado dañado o reemplazar el sensor
+
+================================================================================
+
+CÓDIGO: C0550
+SIGNIFICADO: Fallo en el módulo de control electrónico del sistema de dirección (ECM de dirección)
+CAUSA PROBABLE:
+- Módulo de control de la dirección asistida eléctrica (EPS) con fallo interno
+- Problema de alimentación o tierra del módulo EPS
+- Sobrecalentamiento del módulo de dirección
+- Pico de voltaje que dañó el módulo
+- Fallo de software del módulo EPS
+SÍNTOMAS:
+- Luz de dirección asistida encendida
+- Pérdida total o parcial de la asistencia de dirección
+- Volante muy pesado especialmente a baja velocidad
+- Posible luz de Check Engine encendida
+- Escáner incapaz de comunicarse con el módulo EPS
+SOLUCIÓN:
+- Verificar la alimentación y tierra del módulo EPS
+- Inspeccionar el módulo por daño físico o de agua
+- Intentar actualización de software del módulo EPS
+- Verificar el sistema de refrigeración del módulo si aplica
+- Reemplazar el módulo EPS si el fallo es interno

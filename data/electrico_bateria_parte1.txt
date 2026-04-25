@@ -1,0 +1,142 @@
+SISTEMA: Eléctrico / Batería
+DOCUMENTO: electrico_bateria_parte1.txt
+FUENTE: Códigos OBD-II para BMW - Sistema Eléctrico y Batería (Parte 1)
+MODELOS APLICABLES: BMW Serie 1, 2, 3, 5, 7, X1, X3, X5, Z3, Z4
+
+================================================================================
+
+CÓDIGO: P0560
+SIGNIFICADO: Mal funcionamiento en el sistema de voltaje de la batería
+CAUSA PROBABLE:
+- Batería débil o descargada
+- Alternador defectuoso o que no carga correctamente
+- Conexiones de la batería con corrosión o flojas
+- Circuito de carga dañado
+- Cable de tierra del motor o carrocería en mal estado
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Batería que se descarga rápidamente
+- Dificultad para arrancar el motor
+- Luces del tablero que parpadean
+- Sistemas electrónicos con comportamiento errático
+SOLUCIÓN:
+- Medir el voltaje de la batería (debe ser 12.4–12.7V en reposo)
+- Verificar el voltaje de carga del alternador (debe ser 13.5–14.8V en marcha)
+- Limpiar y apretar los terminales de la batería
+- Revisar el cable de tierra del motor y carrocería
+- Reemplazar la batería o el alternador si están defectuosos
+
+================================================================================
+
+CÓDIGO: P0562
+SIGNIFICADO: Voltaje del sistema demasiado bajo
+CAUSA PROBABLE:
+- Batería vieja o con celdas dañadas
+- Alternador que no genera suficiente voltaje
+- Conexiones de la batería con alta resistencia por corrosión
+- Cables de alimentación principal con daños
+- Consumo eléctrico excesivo de algún componente
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor que puede apagarse en marcha
+- Luces del interior y exterior con brillo reducido
+- Sistema de audio y pantalla que se reinician
+- Dificultad para arrancar el motor, especialmente en frío
+SOLUCIÓN:
+- Verificar voltaje de la batería y su capacidad con probador de batería
+- Revisar el alternador y su correa
+- Limpiar terminales de la batería con bicarbonato y agua
+- Inspeccionar cables principales de alimentación
+- Reemplazar la batería si tiene más de 4-5 años o está defectuosa
+
+================================================================================
+
+CÓDIGO: P0563
+SIGNIFICADO: Voltaje del sistema demasiado alto
+CAUSA PROBABLE:
+- Regulador de voltaje del alternador defectuoso
+- Alternador sobrecargando el sistema eléctrico
+- Problema en el módulo de gestión de energía (BMW EfficientDynamics)
+- Sensor de batería IBS (Intelligent Battery Sensor) defectuoso
+- Cortocircuito en el sistema de carga
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Posibles daños a componentes electrónicos sensibles
+- Luces más brillantes de lo normal
+- Posible daño a la batería por sobrecarga
+- Olor a quemado del compartimento de motor (en casos graves)
+SOLUCIÓN:
+- Verificar el voltaje del alternador con multímetro (no debe superar 14.8V)
+- Revisar el regulador de voltaje del alternador
+- Inspeccionar el sensor IBS de la batería (específico de BMW)
+- Revisar el módulo de gestión de energía
+- Reemplazar el alternador si el regulador está dañado
+
+================================================================================
+
+CÓDIGO: P0600
+SIGNIFICADO: Error de enlace de comunicación del módulo de control del motor (ECM/PCM)
+CAUSA PROBABLE:
+- Problema en el bus CAN (red de comunicación interna del vehículo)
+- ECM/PCM con fallo en su circuito de comunicación
+- Cableado del bus CAN con daños o cortocircuito
+- Conector del ECM con corrosión o mal contacto
+- Interferencia electromagnética en el sistema
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Múltiples sistemas electrónicos con fallos simultáneos
+- Motor con comportamiento errático
+- Posible pérdida de comunicación con otros módulos
+- Escáner OBD2 con dificultad para conectarse
+SOLUCIÓN:
+- Verificar la alimentación y tierra del ECM
+- Inspeccionar el cableado del bus CAN
+- Revisar todos los conectores del ECM
+- Usar escáner BMW especializado para diagnóstico profundo
+- Consultar a técnico especialista en electrónica BMW
+
+================================================================================
+
+CÓDIGO: P0606
+SIGNIFICADO: Fallo del procesador interno del ECM/PCM
+CAUSA PROBABLE:
+- ECM/PCM con daño interno en su procesador
+- Picos de voltaje o batería desconectada con motor en marcha
+- Daño por agua o humedad en el módulo
+- Daño físico por vibración o impacto
+- Fallo de software o firmware del módulo
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Motor con comportamiento impredecible
+- Múltiples códigos de error simultáneos sin causa aparente
+- Posible que el motor no arranque
+- Pérdida de comunicación con escáner OBD2
+SOLUCIÓN:
+- Verificar alimentación eléctrica correcta al ECM
+- Inspeccionar el módulo en busca de daño por agua o impacto
+- Intentar reprogramación del ECM si es posible
+- Consultar taller especializado para reparación o reemplazo del ECM
+- Verificar garantías del fabricante si aplica
+
+================================================================================
+
+CÓDIGO: P0625
+SIGNIFICADO: Circuito de señal baja del campo del generador/alternador
+CAUSA PROBABLE:
+- Alternador con fallo en el circuito de campo
+- Cableado del alternador dañado o con corrosión
+- Regulador de voltaje del alternador defectuoso
+- ECM con problema en la señal de control del alternador
+- Conexiones sueltas en el alternador
+SÍNTOMAS:
+- Luz de Check Engine encendida
+- Luz de batería encendida en el tablero
+- Batería que se descarga mientras el motor está en marcha
+- Luces con brillo reducido o parpadeante
+- Motor con problemas eléctricos generales
+SOLUCIÓN:
+- Medir la señal del campo del alternador con multímetro
+- Revisar el cableado entre ECM y alternador
+- Verificar las conexiones del alternador
+- Probar el regulador de voltaje del alternador
+- Reemplazar el alternador si está defectuoso
