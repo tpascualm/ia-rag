@@ -4,15 +4,13 @@ Sistema RAG (Retrieval-Augmented Generation) para consultar codigos de error OBD
 
 ---
 
-## Video de demostración
+[## Video de demostración](https://drive.google.com/file/d/1LeXcCBT8QFbauuH5gwIkMUsEIg9qnVZl/view?usp=sharing)
 
 
 
 ---
 
 ![Diagrama](Diagrama.png)
-
-]
 
 ---
 
